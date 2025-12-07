@@ -1,10 +1,10 @@
-import { 
-  Globe, 
-  MessageSquare, 
-  Hash, 
-  CalendarClock, 
-  Rocket, 
-  Users, 
+import {
+  Globe,
+  MessageSquare,
+  Hash,
+  CalendarClock,
+  Rocket,
+  Users,
   FolderGit2,
   GraduationCap,
   Video
@@ -23,18 +23,18 @@ export const STEPS: Step[] = [
   {
     id: 2,
     title: "Enter the Community",
-    description: "Join our Discord server. This is where collaboration happens in real-time.",
+    description: "Join our community. This is where collaboration happens in real-time.",
     icon: MessageSquare,
-    actionText: "Join Discord",
-    actionLink: "https://discord.gg/team-shiksha-820923131064745994", 
+    actionText: "Visit team.shiksha",
+    actionLink: "https://team.shiksha/"
   },
   {
     id: 3,
     title: "Locate the Gateway",
-    description: "Find the #request-to-join-team-shiksha-projects channel.",
+    description: "Find the team shiksha projects.",
     icon: Hash,
-    actionText: "Go to Channel",
-    actionLink: "https://discord.com/channels/820923131064745994/1291441123897638995"
+    actionText: "Visit team.shiksha",
+    actionLink: "https://team.shiksha/"
   },
   {
     id: 4,

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Github, Twitter, Disc } from 'lucide-react';
+import { Github, Twitter, Globe } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
@@ -18,27 +18,27 @@ export const Footer: React.FC = () => {
         </div>
 
         <div className="flex items-center gap-6">
-          <a 
-            href="https://github.com/TeamShiksha" 
-            target="_blank" 
+          <a
+            href="https://github.com/TeamShiksha"
+            target="_blank"
             rel="noopener noreferrer"
             className="p-2 bg-slate-50 dark:bg-slate-900 rounded-full text-slate-500 dark:text-slate-400 hover:text-navy-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             aria-label="GitHub"
           >
             <Github size={20} />
           </a>
-          <a 
-            href="https://discord.gg/team-shiksha-820923131064745994" 
-            target="_blank" 
+          <a
+            href="https://team.shiksha/"
+            target="_blank"
             rel="noopener noreferrer"
             className="p-2 bg-slate-50 dark:bg-slate-900 rounded-full text-slate-500 dark:text-slate-400 hover:text-navy-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
-            aria-label="Discord"
+            aria-label="Website"
           >
-            <Disc size={20} />
+            <Globe size={20} />
           </a>
-          <a 
-            href="https://x.com/TeamShiksha" 
-            target="_blank" 
+          <a
+            href="https://x.com/TeamShiksha"
+            target="_blank"
             rel="noopener noreferrer"
             className="p-2 bg-slate-50 dark:bg-slate-900 rounded-full text-slate-500 dark:text-slate-400 hover:text-navy-900 dark:hover:text-white hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
             aria-label="Twitter"
