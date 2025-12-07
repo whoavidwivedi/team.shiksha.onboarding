@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Github, Twitter, Moon, Sun, Globe } from 'lucide-react';
+import { Github, Moon, Sun, Globe } from 'lucide-react';
 
 interface NavbarProps {
   theme: string;
@@ -55,15 +55,17 @@ export const Navbar: React.FC<NavbarProps> = ({ theme, toggleTheme }) => {
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-sm font-semibold text-slate-600 dark:text-slate-400 hover:text-navy-900 dark:hover:text-white transition-colors"
             >
-              <Twitter size={20} />
-              <span className="hidden lg:inline">Twitter</span>
+              <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
+                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z" />
+              </svg>
+              <span className="hidden lg:inline">X</span>
             </a>
 
             <div className="w-px h-6 bg-slate-200 dark:bg-slate-700 mx-2"></div>
 
             <a
               href="#how-to-join"
-              className="px-6 py-2.5 rounded-lg bg-navy-800 text-white text-sm font-semibold hover:bg-navy-700 dark:bg-navy-600 dark:hover:bg-navy-500 transition-all shadow-lg shadow-navy-800/20 dark:shadow-navy-900/40"
+              className="px-6 py-2.5 rounded-lg bg-navy-800 text-white text-sm font-semibold hover:bg-navy-700 dark:bg-navy-500 transition-all shadow-lg shadow-navy-800/20 dark:shadow-navy-900/40"
             >
               Start Journey
             </a>
